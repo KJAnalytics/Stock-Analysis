@@ -21,7 +21,7 @@ Refactoring code to complete analysis of stock performance including Total Trans
 -  Stocks ENPH and RUN are the faonly two stocks in the analysis set with positive returns year to year.  
 -  Before making a "Sell" or "Buy" recommendation, additional years should be added to the analysis to betterunderstand the impact of trading volume on the performance of stock DQ as return decreased as trading volume trippled.
 
-
+https://github.com/KJAnalytics/Stock-Analysis/blob/main/Resources%20-%20Module%202%20challenge%20photos/VBARefactored%20Combined%20Time%20.png
 
  ### Refactoring takeaways
  
@@ -37,7 +37,7 @@ Finally refactoring has pros and cons.
                         -  Finally - learn to walk away when the code isn't flowing.  The break can clear the head and lead to a solution.
                         -  Google, stackoverflow and youtube are my new best friends outside of class.
                         
-*****insert pictures here.
+
 
 ### Results
 
