@@ -13,8 +13,7 @@ Refactoring code to complete analysis of stock performance including Total Trans
 -  Comparison of performance 2017 vs 2018 for stock DQ.
 -  Evaluation of an additional 12 stocks with analysis of performance over the same 2 year period.
 -  Refactoring code to complete analysis including comparison of code run times with the objective of reducing overall runtime.
-![image](https://user-images.githubusercontent.com/106294465/174937105-af1729e1-fa31-44c7-9343-c2f45986bfa8.png)
-![image](https://user-images.githubusercontent.com/106294465/174937309-e6848d82-b719-4fbb-aca4-ec7b92423879.png)
+
 
  ### Analysis takeaways  
 -  Stock DQ chosen by the client's father experienced a 62% decline in return for 2018 after experiencing record returns in 2017 @ 199%.
@@ -32,7 +31,7 @@ Improvement of code to reduce overall run time has multiple approaches and may i
 - Deactivated screen updates, status bar updates. animations, and Events.
 -  Utilized With...End calls for multiple formatting calls for ranges.
 
-*****insert examples here
+
 
 Finally refactoring has pros and cons.
                         -  I found that my biggest issue copying text from other projects and using in a new project takes dilgence and planning.  Without proper planning simple issues like tag names, For/End loops, and not indenting code properly can lead to loads of time lost chasing syntax, overrun, and other programming errors.
