@@ -13,6 +13,8 @@ Refactoring code to complete analysis of stock performance including Total Trans
 -  Comparison of performance 2017 vs 2018 for stock DQ.
 -  Evaluation of an additional 12 stocks with analysis of performance over the same 2 year period.
 -  Refactoring code to complete analysis including comparison of code run times with the objective of reducing overall runtime.
+
+
  ### Analysis takeaways  
 -  Stock DQ chosen by the client's father experienced a 62% decline in return for 2018 after experiencing record returns in 2017 @ 199%.
 -  After analysis of additional stocks, 10 of the 12 stocks evaluating experience declines in 2018 with DQ experiencing the largest losses.
@@ -24,7 +26,9 @@ Refactoring code to complete analysis of stock performance including Total Trans
  ### Refactoring takeaways
  
 Improvement of code to reduce overall run time has multiple approaches and may involve a series of steps to acheive fastest times.  In the refactoring, a reduction of 8.9% (0.1015 seconds) was accomplished using all the resources listed below.  Initial code run time for both years was 1.136719 seconds and finished with 1.035156 seconds refactored. Autocalculation is a time hog and with the small shifts seen in this program, imagine the impacts when working with thousands of lines of code.:
-- Inactivated screen updates, status bar updates. animations, and Events.
+- After a stack overflow error - Reclassed Total Volume as longlong from single as provided in Prompt code/outline.
+- After repeated Out of Memory issues, stripped file back to basic 3 sheet setup with year/analysis page and reloaded Modules.Continued to experience memory errors after rebooting.  After much consternation, entered ctl shift F8  in case the debugger was running in background taking up memory.  This cleared the error and I was able to reload all the sheets and modules without issue.  Key learning - hit the keystrokes to stop debugger frequently.  No issues encountered since.
+- Deactivated screen updates, status bar updates. animations, and Events.
 -  Utilized With...End calls for multiple formatting calls for ranges.
 
 *****insert examples here
