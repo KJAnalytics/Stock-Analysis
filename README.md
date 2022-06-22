@@ -71,6 +71,12 @@ __________________________________________
 - The second half of the upload is the Stock Analysis sheet and module 3 code.  This activity focused on analysis of all stocks from 2018 and calculating Total Daily Volume and return on investment. Attached is the output of the code.![image](https://user-images.githubusercontent.com/106294465/172086966-403e0a18-1342-4b24-a04f-bbc53674082b.png)
 - Key features include the nested loops to iterate through total daily volume and return calculations for an array of 12 unique stocks.  In the code, I researched stack overflow to determine how to write the Return data out as percentages.![image](https://user-images.githubusercontent.com/106294465/172088146-2714e308-ff4c-495e-8ce4-c86a19b33554.png)
 __________________________________________
+#### 6th Commit - Colorblock checkerboard
+-  Shown below is the code developed to generate a colorblock square.  Analysis involved adding the row and column indices together and executing a Mod 2 statement to determine if the cell is "odd" or "Even" and color coded basd on that status.  The block was set up as 8x8 and could easily be changed by adding selection boxes, random number generators to set the number of cells and columns to loop.
+![image](https://user-images.githubusercontent.com/106294465/174937986-e3e127d6-9746-4185-97e2-99cae6514db5.png)
+
+
+
 #### Final Commit
 - VBA_Practice_Challenge.xlsm file with original greenstocks work, all class activities and the refactored code.
 - Folder with updated resource files with .png files.
