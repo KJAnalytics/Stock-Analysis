@@ -31,8 +31,6 @@ Improvement of code to reduce overall run time has multiple approaches and may i
 - Deactivated screen updates, status bar updates. animations, and Events.
 -  Utilized With...End calls for multiple formatting calls for ranges.
 
-
-
 Finally refactoring has pros and cons.
                         -  I found that my biggest issue copying text from other projects and using in a new project takes dilgence and planning.  Without proper planning simple issues like tag names, For/End loops, and not indenting code properly can lead to loads of time lost chasing syntax, overrun, and other programming errors.
                         -  To mitigate these risks - proper planning and sketching out code and tags in advance can reduce hours of time spent searching for an error that is only 1 letter different.
@@ -74,9 +72,9 @@ __________________________________________
 #### 6th Commit - Colorblock checkerboard
 -  Shown below is the code developed to generate a colorblock square.  Analysis involved adding the row and column indices together and executing a Mod 2 statement to determine if the cell is "odd" or "Even" and color coded basd on that status.  The block was set up as 8x8 and could easily be changed by adding selection boxes, random number generators to set the number of cells and columns to loop.
 ![image](https://user-images.githubusercontent.com/106294465/174937986-e3e127d6-9746-4185-97e2-99cae6514db5.png)
+https://github.com/KJAnalytics/Stock-Analysis/blob/main/Resources%20-%20Module%202%20challenge%20photos/Module%202%20Checkerboard.png
 
-
-
+__________________________________________
 #### Final Commit
 - VBA_Practice_Challenge.xlsm file with original greenstocks work, all class activities and the refactored code.
 - Folder with updated resource files with .png files.
