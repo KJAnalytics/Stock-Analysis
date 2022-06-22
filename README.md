@@ -30,15 +30,15 @@ Improvement of code to reduce overall run time has multiple approaches and may i
 - After repeated Out of Memory issues, stripped file back to basic 3 sheet setup with year/analysis page and reloaded Modules.Continued to experience memory errors after rebooting.  After much consternation, entered ctl shift F8  in case the debugger was running in background taking up memory.  This cleared the error and I was able to reload all the sheets and modules without issue.  Key learning - hit the keystrokes to stop debugger frequently.  No issues encountered since.
 - Deactivated screen updates, status bar updates. animations, and Events.
 -  Utilized With...End calls for multiple formatting calls for ranges.
+https://github.com/KJAnalytics/Stock-Analysis/blob/main/Resources%20-%20Module%202%20challenge%20photos/VBARefactored%20Combined%20Time%20.png                      
+https://github.com/KJAnalytics/Stock-Analysis/blob/main/Resources%20-%20Module%202%20challenge%20photos/Best%20time%20reduction%20using%20With%20and%20Value2%20calls.png
 
 Finally refactoring has pros and cons.
                         -  I found that my biggest issue copying text from other projects and using in a new project takes dilgence and planning.  Without proper planning simple issues like tag names, For/End loops, and not indenting code properly can lead to loads of time lost chasing syntax, overrun, and other programming errors.
                         -  To mitigate these risks - proper planning and sketching out code and tags in advance can reduce hours of time spent searching for an error that is only 1 letter different.
                         -  Finally - learn to walk away when the code isn't flowing.  The break can clear the head and lead to a solution.
                         -  Google, stackoverflow and youtube are my new best friends outside of class.
-                        
-
-
+  
 ### Results
 
 -Starting from base green_stocks code and the prompts provided for the VBA_Challenge exercise, refactoring and validaton of code integrity was conducted.  Code initiated from a simple "Hellow World" in class and progressed through a series of mini projects each building on concepts learned in previous exercises. Concepts demonstrated include:
