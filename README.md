@@ -13,7 +13,7 @@ Refactoring code to complete analysis of stock performance including Total Trans
 -  Comparison of performance 2017 vs 2018 for stock DQ.
 -  Evaluation of an additional 12 stocks with analysis of performance over the same 2 year period.
 -  Refactoring code to complete analysis including comparison of code run times with the objective of reducing overall runtime.
-
+https://github.com/KJAnalytics/Stock-Analysis/blob/main/Resources%20-%20Module%202%20challenge%20photos/Run%20time%20for%202018%20loop%20All%20stocks%20analysis.png
 
  ### Analysis takeaways  
 -  Stock DQ chosen by the client's father experienced a 62% decline in return for 2018 after experiencing record returns in 2017 @ 199%.
